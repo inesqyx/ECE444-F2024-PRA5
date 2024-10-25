@@ -45,7 +45,7 @@ def test_real_news_prediction(client):
 
 ## LATENCY TEST ##
 # Define base URL for API
-BASE_URL = "http://127.0.0.1:5000"  # Adjust to your actual endpoint
+BASE_URL = "http://serve-sentiment-env.eba-hy2wbfep.us-east-2.elasticbeanstalk.com/"  # Adjust to your actual endpoint
 
 # Number of API calls for the test
 NUM_CALLS = 100
